@@ -2,7 +2,7 @@ import physicalgraph.zigbee.clusters.iaszone.ZoneStatus
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-    definition(name: "Zigbee Motion/Temp/Humidity Sensor", namespace: "smartthings", author: "SmartThings", mnmn: "SmartThings", vid: "generic-motion-6") {
+    definition(name: "Zigbee Temp/Humidity Sensor", namespace: "ktj1312", author: "ktj1312", mnmn: "SmartThings", vid: "generic-motion-6") {
         capability "Motion Sensor"
         capability "Configuration"
         capability "Battery"
